@@ -1,0 +1,19 @@
+Technology Stack for Smart Recruitment System
+
+Frontend - React.js , Vite ,Tailwind css, npm 
+
+React Libraries - AOS (Animate On Scroll), React Slick, React carousel , React Tables , Framer Motion
+
+Backend - Node.js , Express.js 
+
+Database - MySQL
+
+Backend Language - JavaScript (Node.js environment)
+
+API - RESTful APIs, Postman API
+
+Development and Deployment Tools - Git (Version Control) , GitHub (Repository and Collaboration)
+
+Hosting and Deployment - Cloud Platforms (Heroku, Vercel, AWS)
+
+Data Management and Security : Data validation using Bcrypt library and JWT
