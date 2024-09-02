@@ -8,6 +8,7 @@ import { TiTick } from "react-icons/ti";
 import { TbComet } from "react-icons/tb";
 import Hero2 from './Hero2'
 import Register from './Register'
+import Dashboard from './Dashboard';
 
 
 const Hero = () => {
@@ -155,6 +156,7 @@ const Hero = () => {
       </main>
       <Hero2 />
       <Register />
+      <Dashboard />
 
       <footer className="bg-gray-800 text-white py-4 px-8 mt-16">
         <p className="text-center">© 2023 SmartRecruiters</p>
