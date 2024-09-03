@@ -68,18 +68,18 @@ const Hero = () => {
             <MdOutlineNetworkCheck className='bg-green-200 h-10 w-10 p-3 rounded-full text-black'/>
             <h2 className="text-xl font-bold ml-4">Hiring Velocity</h2>
             </div>
-            <div className="flex flex-col space-y-2">
+            <div className="flex flex-col space-y-8">
               <div className="w-full bg-gray-200 rounded-full h-2">
-                <div className="bg-green-500 rounded-full h-2" style={{ width: '80%' }}></div>
+                <div className="bg-green-500 rounded-full h-2" style={{ width: '80%' }}> </div>2024
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2">
-                <div className="bg-green-500 rounded-full h-2" style={{ width: '60%' }}></div>
+                <div className="bg-green-500 rounded-full h-2" style={{ width: '60%' }}></div>2023
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2">
-                <div className="bg-green-500 rounded-full h-2" style={{ width: '40%' }}></div>
+                <div className="bg-green-500 rounded-full h-2" style={{ width: '40%' }}></div>2022
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2">
-                <div className="bg-green-500 rounded-full h-2" style={{ width: '20%' }}></div>
+                <div className="bg-green-500 rounded-full h-2" style={{ width: '20%' }}></div>2021
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Hero = () => {
           <div className="bg-white shadow-md rounded-lg p-6 flex flex-col justify-between">
             <div className="flex items-center mb-4">
             <FiPieChart className='bg-green-200 h-10 w-10 p-3 rounded-full text-black' />
-            <h2 className="text-xl font-bold ml-4">Sourcing</h2>
+            <h2 className="text-xl font-bold ml-4">Our Sources</h2>
             </div>
             <div className="flex justify-center">
               <div className="flex flex-row gap-5 relative w-24 h-24">
@@ -98,18 +98,21 @@ const Hero = () => {
                   <circle cx="50" cy="50" r="45" fill="transparent" stroke="#ccc" strokeWidth="10" />
                   <circle cx="50" cy="50" r="45" fill="transparent" stroke="#4CAF50" strokeWidth="10" strokeDasharray="141.3716694115407" strokeDashoffset="141.3716694115407" />
                   <text x="50" y="50" textAnchor="middle" dominantBaseline="middle" className="text-gray-800 font-bold text-2xl">
-                    120
+                  120+ 
                   </text>
                 </svg>
-                
+
               </div>
+              
             </div>
+            <div className='flex justify-center font-bold'>   Companies</div>
+         
           </div>
 
           <div className="bg-white shadow-md rounded-lg p-4  flex flex-col justify-between">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-4">  <div className='font-bold text-xl mr-2'>Your profile has </div>
               <div className="bg-green-500 rounded-full h-30 w-40 flex items-center justify-center">
-                <span className="text-white font-bold text-2xl">97%</span>
+                <span className="text-white font-bold text-2xl"> 97%</span>
                 <span className="text-white font-normal text-sm">MATCH</span>
               </div>
             </div>
@@ -119,7 +122,7 @@ const Hero = () => {
                 <span className="ml-4 font-medium">Hannah Mollison</span>
               </div>
               <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
-                Recommendation
+                View Recommendations
               </button>
             </div>
           </div>
